@@ -1,0 +1,317 @@
+html {
+  max-width: 100%;
+  min-width: 1175px;
+}
+body {
+  min-width: 1175px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #222c40;
+}
+header,
+footer {
+  max-width: 100%;
+  min-width: 1175px;
+  margin: 0 auto;
+}
+.left {
+  float: left;
+}
+.right {
+  float: right;
+}
+header {
+  position: relative;
+  z-index: 1;
+  width: 1175px;
+  height: 105px;
+  margin-top: 15px;
+}
+header .menu {
+  margin-top: 35px;
+}
+header .menu a {
+  display: inline-table;
+  margin: 0 15px;
+  font-size: 18px;
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+}
+header .menu a:hover {
+  text-decoration: underline;
+  /* background-image: url('http://localhost/meow/public/ext/images/main/mouse_hover.png');
+         background-repeat: no-repeat;
+         background-position: bottom;*/
+}
+.slider {
+  position: fixed;
+  max-width: 100%;
+  min-width: 100%;
+  height: 800px;
+  background: url("http://localhost/meow/public/ext/images/Head.png");
+}
+.slider .global {
+  margin-left: auto;
+  margin-right: auto;
+  width: 1175px;
+}
+section {
+  min-width: 1175px;
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  z-index: 5;
+}
+section .about {
+  position: relative;
+  z-index: 1;
+  max-width: 100%;
+  min-width: 1175px;
+  margin-top: 500px;
+  height: 409px;
+  background: url("http://localhost/meow/public/ext/images/main/about_bg.png");
+}
+section .about div {
+  z-index: 1;
+  display: block;
+  padding-top: 90px;
+}
+section .about div img {
+  z-index: 1;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+section .about div p {
+  z-index: 1;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  left: 33%;
+  text-align: center;
+  width: 660px;
+  font-weight: bold;
+  font-size: 25px;
+}
+section .projects {
+  padding-top: 20px;
+  position: relative;
+  z-index: 1;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: -22px;
+  max-width: 100%;
+  background: url('http://localhost/meow/public/ext/images/main/main_projects_bgg.png');
+  /*Галерея*/
+}
+section .projects h1 {
+  text-align: center;
+  font-weight: bold;
+  font-size: 48px;
+  color: white;
+}
+section .projects .gmenu {
+  margin-right: auto;
+  margin-left: auto;
+  position: absolute;
+  left: 50%;
+}
+section .projects .gmenu > div {
+  height: 30px;
+  text-align: center;
+  border: 2px solid white;
+  border-radius: 3px;
+  position: relative;
+  left: -50%;
+  color: white;
+  width: 150px;
+  font-size: 18px;
+  font-weight: 500;
+  display: inline-table;
+}
+section .projects .gmenu > div:hover {
+  background: #5b6a80;
+}
+section .projects #gallery-content {
+  width: 100%;
+}
+section .projects .gallery-content-center-normal {
+  width: 950px;
+  margin-right: auto;
+  margin-left: auto;
+}
+section .projects .gallery-content-center-full {
+  width: 100%;
+}
+section .projects #gallery-content-center {
+  margin-top: 50px;
+  max-width: 100%;
+  min-width: 1175px;
+}
+section .projects #gallery-content-center img {
+  width: 23%;
+  margin-bottom: 2%;
+  transition: all 0.5s;
+  margin-right: 1%;
+  margin-left: 1%;
+}
+section .projects #gallery-content-center img:hover {
+  opacity: 0.1;
+}
+section .writeus {
+  padding-top: 150px;
+  margin-top: 100px;
+  width: 170px;
+  margin-bottom: 20px;
+}
+section .writeus h6 {
+  font-size: 20px;
+  font-weight: 800;
+  color: #ffffff;
+}
+section .writeus p {
+  color: #ffffff;
+}
+section .design {
+  margin-bottom: 10px;
+  margin-top: -30px;
+  margin-left: 15%;
+  width: 170px;
+}
+section .design h6 {
+  font-size: 20px;
+  font-weight: 800;
+  color: #ffffff;
+}
+section .design p {
+  color: #ffffff;
+}
+section .programming {
+  margin-top: -30px;
+  margin-left: 30%;
+  width: 170px;
+}
+section .programming h6 {
+  font-size: 20px;
+  font-weight: 800;
+  color: #ffffff;
+}
+section .programming p {
+  color: #ffffff;
+}
+section .advertising {
+  margin-left: 45%;
+  margin-top: -30px;
+  width: 170px;
+}
+section .advertising h6 {
+  font-size: 20px;
+  font-weight: 800;
+  color: #ffffff;
+}
+section .advertising p {
+  color: #ffffff;
+}
+section .profit {
+  margin-left: 60%;
+  margin-top: -30px;
+  width: 170px;
+}
+section .profit h6 {
+  font-size: 20px;
+  font-weight: 800;
+  color: #ffffff;
+}
+section .profit p {
+  color: #ffffff;
+}
+section .wecan {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -60px;
+}
+section .wecan h6 {
+  font-size: 36px;
+  font-weight: 800;
+  color: #993366;
+}
+.information {
+  max-width: 1175px;
+  margin-top: -300px;
+  padding-top: 320px;
+  background: url('http://localhost/meow/public/ext/images/main/bg_shapes.png');
+}
+footer {
+  position: relative;
+  z-index: 5;
+  width: 100%;
+  margin: 0 auto;
+  background-color: #993366;
+}
+footer .footer {
+  z-index: 1;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1175px;
+  height: 110px;
+  padding-top: 30px;
+}
+footer .footer .logo {
+  z-index: 1;
+  margin-top: -45px;
+}
+footer .footer .button {
+  z-index: 1;
+  margin-left: auto;
+  margin-right: auto;
+  width: 320px;
+  height: 51px;
+  border: 3px solid white;
+}
+footer .footer .button:hover {
+  background: #c672a1;
+}
+footer .footer .button:active {
+  box-shadow: inset 0 0 15px rgba(0, 0, 0, 0.7);
+}
+footer .footer .contactus {
+  z-index: 1;
+  width: 320px;
+  text-align: center;
+  line-height: 51px;
+  margin: 0 auto;
+  display: block;
+  font-weight: 400;
+  font-size: 20px;
+  color: white;
+  text-decoration: none;
+}
+.studio {
+  width: 1175px;
+  margin: 0 auto;
+  background-image: url("http://localhost/meow/public/ext/images/team/cat.png");
+  background-repeat: no-repeat;
+  background-position: top center;
+}
+.information {
+  width: 100%;
+  height: auto;
+  margin-bottom: 50px;
+}
+.information h2 {
+  text-align: center;
+  font-size: 48px;
+  color: white;
+}
+.member {
+  display: inline-table;
+  width: 22.5%;
+  margin: 1%;
+  height: 400px;
+  background-image: url(../images/meow.jpg);
+}
+.member:hover {
+  background-image: url(../images/meow.jpg);
+  opacity: 0.5;
+}
